@@ -6,7 +6,7 @@
 	fscache = true
 	symlinks = true
 [credential]
-	helper = store
+	helper = manager-core
 [credential "https://github.com"]
 	username = EnnoxHD
 [fetch]
