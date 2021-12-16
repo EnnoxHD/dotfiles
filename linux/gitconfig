@@ -1,0 +1,27 @@
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = input
+	editor = nano
+	fscache = true
+	symlinks = true
+[credential]
+	helper = store
+[credential "https://github.com"]
+	username = EnnoxHD
+[fetch]
+	prune = true
+	prunetags = true
+[http]
+	sslbackend = openssl
+	sslcainfo = /etc/ssl/certs/ca-certificates.crt
+[init]
+	defaultbranch = main
+[pull]
+	rebase = true
+[tag]
+	gpgsign = true
+[user]
+	email = henrik.schirmacher@outlook.de
+	name = EnnoxHD
+	signingkey = A37A45F883AFDF9F5D9FE868DBC1D0419129A9FC
