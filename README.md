@@ -6,7 +6,3 @@ Contains my platform specific dotfiles for:
 ## Supported platforms:
 * [Windows](https://github.com/EnnoxHD/dotfiles/tree/windows)
 * [Linux](https://github.com/EnnoxHD/dotfiles/tree/linux)
-
-## Development branches:
-* [Windows-Develop](https://github.com/EnnoxHD/dotfiles/tree/windows-develop)
-* [Linux-Develop](https://github.com/EnnoxHD/dotfiles/tree/linux-develop)
