@@ -1,3 +1,15 @@
+[alias]
+	a = add
+	aliases = config --get-regexp alias.*
+	ap = add --patch
+	branches = branch --all --verbose --verbose
+	difff = diff --no-index
+	diffi = diff --cached
+	gl = log --all --graph --max-count=15 --oneline
+	l = log --max-count=10 --oneline
+	ri = rebase --interactive
+	s = status
+	tags = tag
 [commit]
 	gpgsign = true
 [core]
