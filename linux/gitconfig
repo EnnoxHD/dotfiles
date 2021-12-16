@@ -6,6 +6,7 @@
 	fscache = true
 	symlinks = true
 [credential]
+	credentialStore = gpg
 	helper = manager-core
 [credential "https://github.com"]
 	username = EnnoxHD
