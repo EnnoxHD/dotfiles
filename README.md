@@ -6,3 +6,6 @@ Contains my [platform specific](#platforms) dotfiles for:
 ## Platforms
 * [Linux](./linux)
 * [Windows](./windows)
+
+## License
+See [LICENSE file](./LICENSE).
