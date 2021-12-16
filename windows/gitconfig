@@ -1,0 +1,36 @@
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = true
+	editor = nano.exe
+	fscache = true
+	longpaths = true
+	symlinks = true
+[credential]
+	helper = manager-core
+[credential "https://github.com"]
+	usehttppath = true
+	username = EnnoxHD
+[diff "astextplain"]
+	textconv = astextplain
+[fetch]
+	prune = true
+	prunetags = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	process = git-lfs filter-process
+	required = true
+	smudge = git-lfs smudge -- %f
+[http]
+	sslbackend = openssl
+	sslcainfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+[init]
+	defaultbranch = main
+[pull]
+	rebase = true
+[tag]
+	gpgsign = true
+[user]
+	email = henrik.schirmacher@outlook.de
+	name = EnnoxHD
+	signingkey = A37A45F883AFDF9F5D9FE868DBC1D0419129A9FC
