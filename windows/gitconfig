@@ -9,7 +9,6 @@
 [credential]
 	helper = manager-core
 [credential "https://github.com"]
-	usehttppath = true
 	username = EnnoxHD
 [diff "astextplain"]
 	textconv = astextplain
