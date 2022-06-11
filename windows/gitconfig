@@ -3,12 +3,17 @@
 	aliases = config --get-regexp alias.*
 	ap = add --patch
 	branches = branch --all --verbose --verbose
+	cd = switch
 	difff = diff --no-index
+	difffw = diff --no-index --word-diff
+	diffw = diff --word-diff
 	diffi = diff --cached
+	diffiw = diff --cached --word-diff
 	gl = log --all --graph --max-count=15 --oneline
 	l = log --max-count=10 --oneline
 	ri = rebase --interactive
 	s = status
+	tagam = "! git tag --annotate --message=\"$(git log --max-count=1 --pretty=%B)\""
 	tags = tag
 [commit]
 	gpgsign = true
