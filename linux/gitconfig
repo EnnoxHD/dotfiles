@@ -13,6 +13,7 @@
 	l = log --max-count=10 --oneline
 	ri = rebase --interactive
 	s = status
+	showw = show --word-diff
 	tagam = "! git tag --annotate --message=\"$(git log --max-count=1 --pretty=%B)\""
 	tags = tag
 [commit]
