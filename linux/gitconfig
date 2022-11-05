@@ -7,9 +7,9 @@
 	cp = cherry-pick
 	difff = diff --no-index
 	difffw = diff --no-index --word-diff
-	diffw = diff --word-diff
 	diffi = diff --cached
 	diffiw = diff --cached --word-diff
+	diffw = diff --word-diff
 	gl = log --all --graph --max-count=15 --oneline
 	l = log --max-count=10 --oneline
 	restorei = restore --staged
