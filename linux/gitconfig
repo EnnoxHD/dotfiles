@@ -8,6 +8,8 @@
 	difff = diff --no-index
 	difffw = diff --no-index --word-diff
 	diffi = diff --cached
+	diffil = diff --cached --pretty="" --name-only
+	diffils = diff --cached --pretty="" --name-status
 	diffiw = diff --cached --word-diff
 	diffl = diff --pretty="" --name-only
 	diffls = diff --pretty="" --name-status
