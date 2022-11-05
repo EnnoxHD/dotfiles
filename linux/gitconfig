@@ -3,8 +3,8 @@
 	aliases = config --get-regexp alias.*
 	ap = add --patch
 	branches = branch --all --verbose --verbose
-	cp = cherry-pick
 	cd = switch
+	cp = cherry-pick
 	difff = diff --no-index
 	difffw = diff --no-index --word-diff
 	diffw = diff --word-diff
