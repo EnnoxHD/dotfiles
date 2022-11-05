@@ -12,6 +12,7 @@
 	diffiw = diff --cached --word-diff
 	gl = log --all --graph --max-count=15 --oneline
 	l = log --max-count=10 --oneline
+	restorei = restore --staged
 	ri = rebase --interactive
 	s = status
 	showf = show --pretty="" --name-only
