@@ -15,8 +15,8 @@
 	restorei = restore --staged
 	ri = rebase --interactive
 	s = status
-	showf = show --pretty="" --name-only
-	showfs = show --pretty="" --name-status
+	showl = show --pretty="" --name-only
+	showls = show --pretty="" --name-status
 	showw = show --word-diff
 	tagam = "! git tag --annotate --message=\"$(git log --max-count=1 --pretty=%B)\""
 	tags = tag
