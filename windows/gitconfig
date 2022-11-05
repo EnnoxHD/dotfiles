@@ -9,6 +9,8 @@
 	difffw = diff --no-index --word-diff
 	diffi = diff --cached
 	diffiw = diff --cached --word-diff
+	diffl = diff --pretty="" --name-only
+	diffls = diff --pretty="" --name-status
 	diffw = diff --word-diff
 	gl = log --all --graph --max-count=15 --oneline
 	l = log --max-count=10 --oneline
