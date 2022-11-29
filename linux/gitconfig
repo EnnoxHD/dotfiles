@@ -33,7 +33,7 @@
 	symlinks = true
 [credential]
 	credentialStore = gpg
-	helper = manager-core
+	helper = manager
 [credential "https://github.com"]
 	username = EnnoxHD
 [fetch]

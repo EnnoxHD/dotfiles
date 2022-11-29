@@ -34,7 +34,7 @@
 	symlinks = true
 [credential]
 	credentialStore = wincredman
-	helper = manager-core
+	helper = manager
 [credential "https://github.com"]
 	username = EnnoxHD
 [diff "astextplain"]
