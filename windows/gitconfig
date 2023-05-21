@@ -3,6 +3,7 @@
 	aliases = config --get-regexp alias.*
 	an = add --intent-to-add
 	ap = add --patch
+	apn = "! if [ $# -lt 1 ]; then echo 'Add at least one path!'; exit 1; fi; git add --intent-to-add $@ && git add --patch $@"
 	branches = branch --all --verbose --verbose
 	cd = switch
 	cdd = switch --detach
