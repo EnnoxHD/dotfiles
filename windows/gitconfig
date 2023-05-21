@@ -20,6 +20,7 @@
 	l = log --max-count=10 --oneline
 	restorei = restore --staged
 	ri = rebase --interactive
+	rmi = rm --cached
 	s = status
 	showl = show --pretty="" --name-only
 	showls = show --pretty="" --name-status
