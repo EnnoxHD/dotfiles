@@ -54,7 +54,7 @@
 [init]
 	defaultbranch = main
 [pull]
-	rebase = true
+	rebase = merges
 [tag]
 	gpgsign = true
 [user]
