@@ -39,7 +39,10 @@
 	symlinks = true
 [credential]
 	credentialStore = gpg
-	helper = manager
+	helper = 
+	helper = /usr/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
 [credential "https://github.com"]
 	username = EnnoxHD
 [fetch]

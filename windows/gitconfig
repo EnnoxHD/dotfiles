@@ -40,7 +40,10 @@
 	symlinks = true
 [credential]
 	credentialStore = wincredman
-	helper = manager
+	helper = 
+	helper = C:/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+[credential "https://dev.azure.com"]
+	useHttpPath = true
 [credential "https://github.com"]
 	username = EnnoxHD
 [diff "astextplain"]
@@ -50,7 +53,7 @@
 	prunetags = true
 [http]
 	sslbackend = openssl
-	sslcainfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+	sslcainfo = C:/Program\\ Files/Git/mingw64/ssl/certs/ca-bundle.crt
 [init]
 	defaultbranch = main
 [pull]
