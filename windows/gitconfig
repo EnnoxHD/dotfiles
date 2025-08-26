@@ -8,6 +8,7 @@
 	branches = branch --all --verbose --verbose
 	cd = switch
 	cdd = switch --detach
+	cleanup = clean -x -d --force
 	cp = cherry-pick
 	difff = diff --no-index
 	difffw = diff --no-index --word-diff
@@ -23,6 +24,7 @@
 	mff = merge --ff
 	mffo = merge --ff-only
 	mne = merge --no-edit
+	nuke = "! git clean -x -d --force && git reset --hard HEAD"
 	pp = "! git pull && git push"
 	pushf = push --force-with-lease
 	remote-info = remote show origin
