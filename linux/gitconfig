@@ -24,6 +24,7 @@
 	mffo = merge --ff-only
 	mne = merge --no-edit
 	pp = "! git pull && git push"
+	pushf = push --force-with-lease
 	remotes = remote --verbose
 	restorei = restore --staged
 	ri = rebase --interactive
