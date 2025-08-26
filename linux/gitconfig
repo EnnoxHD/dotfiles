@@ -25,6 +25,7 @@
 	mne = merge --no-edit
 	pp = "! git pull && git push"
 	pushf = push --force-with-lease
+	remote-info = remote show origin
 	remotes = remote --verbose
 	restorei = restore --staged
 	ri = rebase --interactive
