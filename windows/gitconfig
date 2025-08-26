@@ -4,6 +4,7 @@
 	an = add --intent-to-add
 	ap = add --patch
 	apn = "! if [ $# -lt 1 ]; then echo 'Add at least one path!'; exit 1; fi; git add --intent-to-add $@ && git add --patch $@"
+	blame-more = blame -w -C -C -C
 	branches = branch --all --verbose --verbose
 	cd = switch
 	cdd = switch --detach
