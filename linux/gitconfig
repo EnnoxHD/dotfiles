@@ -54,7 +54,10 @@
 	sslcainfo = /etc/ssl/certs/ca-certificates.crt
 [init]
 	defaultbranch = main
+[merge]
+	ff = false
 [pull]
+	ff = true
 	rebase = merges
 [tag]
 	gpgsign = true

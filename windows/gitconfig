@@ -57,7 +57,10 @@
 	sslcainfo = C:/Program\\ Files/Git/mingw64/ssl/certs/ca-bundle.crt
 [init]
 	defaultbranch = main
+[merge]
+	ff = false
 [pull]
+	ff = true
 	rebase = merges
 [tag]
 	gpgsign = true
