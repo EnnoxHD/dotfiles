@@ -33,6 +33,7 @@
 	ri = rebase --interactive
 	rmi = rm --cached
 	s = status
+	search = "! search() { if [ $# != 1 ]; then read -p 'search term: ' term; else term=$1; fi; git log --grep=$term -i --pretty='format:%h %f'; }; search"
 	showl = show --pretty="" --name-only
 	showls = show --pretty="" --name-status
 	showw = show --word-diff
